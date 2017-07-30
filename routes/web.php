@@ -33,7 +33,8 @@ Route::group(['prefix'=>'admin'], function(){
 		Route::get('add', 'CategoryController@getAdd');
 		Route::post('add', 'CategoryController@postAdd');
 
-		Route::get('edit', 'CategoryController@getEdit');
+		Route::get('edit/{id}', 'CategoryController@getEdit');
+		Route::post('edit/{id}', 'CategoryController@postEdit');
 	});
 
 	Route::group(['prefix'=>'type_news'], function(){
