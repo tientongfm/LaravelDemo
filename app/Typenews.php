@@ -4,10 +4,10 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Type_news extends Model
+class Typenews extends Model
 {
     //
-	protected $table = "type_news";
+	protected $table = "Typenews";
 
 	// tao lien ket giua cac model
 	public function category()

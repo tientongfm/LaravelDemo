@@ -7,13 +7,13 @@ use Illuminate\Database\Eloquent\Model;
 class News extends Model
 {
     //
-    protected $table = "news";
+    protected $table = "News";
     
     // tao lien ket giua cac model
-    public function type_news()
+    public function typenews()
     {
     	//1 tin tuc thuoc 1 loai tin
-    	return $this->belongsTo('App\Type_news', 'id_type_news', 'id');
+    	return $this->belongsTo('App\Typenews', 'id_type_news', 'id');
     }
 
     public function comment()

@@ -64,6 +64,8 @@
     });
     </script>
 
+    <script type="text/javascript" language="javascript" src="admin_assets/ckeditor/ckeditor.js" ></script>
+
     @yield('script')
 </body>
 

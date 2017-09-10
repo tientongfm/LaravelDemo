@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Comment extends Model
 {
     //
-    protected $table = "comment";
+    protected $table = "Comment";
     
     // tao lien ket giua cac model
     public function news()
